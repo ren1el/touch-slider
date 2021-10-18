@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.wrapper {
+  width: 375px;
+  height: 667px;
+  border: 2px solid #000;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: black;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  flex: none;
+}
+
+.elem {
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  overflow: hidden scroll;
+}
+
+.salmon {
+  background-color: salmon;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
