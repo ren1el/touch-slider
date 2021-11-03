@@ -35,6 +35,7 @@ pages.forEach((page, index) => {
     }
     
     if (!verticalScroll) {
+      event.preventDefault()
       isTranslating = true
 
       const distTraveled = currX - startX
